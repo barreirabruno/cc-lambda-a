@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "sls offline",
+    "test": "jest --passWithNoTests --no-cache --runInBand",
+    "test:watch": "npm run test -- --watch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
