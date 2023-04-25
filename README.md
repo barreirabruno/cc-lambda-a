@@ -13,44 +13,44 @@ User inputs a list of Products, the base currency of Product prices, the target 
    "products":[
       {
          "description":"any_product_description",
-         "price": 10.50
+         "price":10.50
       },
       {
          "description":"any_product_description_a",
-         "price": 66.60
+         "price":66.60
       },
       {
          "description":"any_product_description_b",
-         "price": 18.30
+         "price":18.30
       }
    ],
-	 "base": "BRL",
+   "base":"BRL",
    "target":"USD",
-	 "purpose": "tourism"
+   "purpose":"tourism"
 }
 ```
 
 ## System output example:
 
 ```json
-{ 
-	"products":[
+{
+   "products":[
       {
          "description":"any_product_description",
-         "price": 10.50
+         "price":10.50
       },
       {
          "description":"any_product_description_a",
-         "price": 66.60
+         "price":66.60
       },
       {
          "description":"any_product_description_b",
-         "price": 18.30
+         "price":18.30
       }
    ],
-  "in":"USD",
-	"purpose": "tourism",
-	"source": "any_currency_data_provider",
+   "in":"USD",
+   "purpose":"tourism",
+   "source":"any_currency_data_provider"
 }
 ```
 
